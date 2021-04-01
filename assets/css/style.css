@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&display=swap');
+/*-----------------------------------------------------Main Element-----------*/
+
+.container{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color:#491975;
+}
+
+.title-container{
+  width: 100%;
+  background-color: rgba(245, 56, 56, 0.7);
+  display: inline-block;
+}
+
+.logo-name{
+  padding: 0 auto;
+  margin: 0 auto;
+  float: left;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
+.navigation{
+  width: 100%;
+  float: right;
+  list-style: none;
+  border-bottom: 2px solid black;
+}
+
+.navigation li{
+  display: inline-block;
+  font-family: 'Akaya Telivigala', cursive;
+  letter-spacing: 2px;
+  padding-right: 10px;
+}
+
+.navigation li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/*-----------------------------------------------------Cards-----------*/
+
+.main-content{
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  display: block;
+}
+
+.main-content-container{
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(245, 56, 56, 0.7);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  flex-wrap: wrap;
+  border-radius: 2%;
+  border: 2px solid #230d38;
+}
+
+.memory-card{
+  width: 80%;
+  height: 150px;
+  border: 1px solid black;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+}
+
+.memory-card:active{
+  transform: scale(0.90);
+  transition: transform .1s;
+}
+
+.front,
+.back{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: beige;
+  backface-visibility: hidden;
+}
+
+.memory-card.flip{
+  transform: rotateY(180deg);
+}
+
+.front{
+  transform: rotateY(180deg);
+}
+
+/*-----------------------------------------------------Personal Information Container-----------*/
+
+.background-info-container{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: block;
+  background-color: rgba(245, 56, 56, 0.7);
+  margin-top: 5%;
+  border-radius: 5%;
+  border: 2px solid #230d38;
+}
+
+.name a{
+  text-decoration-line: underline;
+  margin-left: 2%;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
+.j-k-photo-holder{
+  width: 30%;
+  height: 100%;
+  margin: auto;
+}
+
+.j-k-photo{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.j-k-photo:hover{
+  width: 110%;
+  height: 110%;
+}
+
+.personal-info{
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.site-link{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+/*-----------------------------------------------------Fun Fact Container-----------*/
+
+
+.fun-fact-container{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: block;
+  background-color: rgba(245, 56, 56, 0.7);
+  border-radius: 5%;
+  border: 2px solid #230d38;
+}
+
+.films{
+  text-decoration-line: underline;
+  margin-left: 2%;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
+.film-facts li{
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.link-to-source{
+  font-family: 'Akaya Telivigala', cursive;
+  text-align: center;
+}
+
+.books{
+  text-decoration-line: underline;
+  margin-left: 2%;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
+.book-facts{
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+
+/*-----------------------------------------------------Harry Potter Video Container-----------*/
+
+
+.harry-potter-video-container{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: block;
+  background-color: rgba(245, 56, 56, 0.7);
+  border-radius: 5%;
+  border: 2px solid #230d38;
+}
+
+.youtube-video{
+  text-align: center;
+  margin-top: 5px;
+}
+
+/*-----------------------------------------------------Harry Potter Photo Container-----------*/
+
+
+.photo-container{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: block;
+  background-color: rgba(245, 56, 56, 0.7);
+  border-radius: 5%;
+  border: 2px solid #230d38;
+}
+
+.cast-photo{
+  width: 70%;
+  height: 100%;
+  padding: 25%;
+  margin-left: -10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: url("../images/castimage1.jpg") no-repeat center center;
+  background-size: contain;
+}
+
+.photo-info{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+/*-----------------------------------------------------Decorations-----------*/
+
+
+hr{
+  width: 10%;
+  height: 2px;
+  border: none;
+  background-color: #230d38;
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/*-----------------------------------------------------Page Footer-----------*/
+
+.useful-info{
+  width: 100%;
+  height: 30%;
+  margin-top: 15%;
+  padding: auto;
+  position: relative;
+}
+
+.last-container{
+  width: 100%;
+  height: 30%;
+  padding: auto;
+  margin: auto;
+  background-color: rgba(245, 56, 56, 0.7);
+  border-top: 2px solid black;
+}
+
+.about-section{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  padding-bottom: 5%;
+  display: block;
+  background-color: rgba(245, 56, 56, 0.7);
+  float: left;
+}
+
+.about-paragraph{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.social-links{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  display: block;
+  float: left;
+  background-color: rgba(245, 56, 56, 0.7);
+  padding-bottom: 4.5%;
+}
+
+.social-links p{
+  text-align: center;
+  padding-top: 6%;
+  word-spacing: 50px;;
+}
+
+.social-links a{
+  font-size: 20px;
+  color: aqua;
+  margin: auto;
+}
+
+.social-links a:hover{
+  font-size: 25px;
+  color: #230d38;
+}
