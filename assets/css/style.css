@@ -322,3 +322,100 @@ hr{
   font-size: 25px;
   color: #230d38;
 }
+
+/*-----------------------------------------------------About Page-----------*/
+
+.main-content-page-about{
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+  display: block;
+}
+
+.main-content-about{
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(245, 56, 56, 0.7);
+  margin: auto;
+  border-radius: 2%;
+  border: 2px solid #230d38;
+}
+
+.main-content-about p{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.joining-containers{
+  width: 100%;
+  height: 40%;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+.left-container{
+  width: 80%;
+  height: 40%;
+  background-color: rgba(245, 56, 56, 0.7);
+  padding: 5px;
+  margin: auto;
+  border-radius: 2%;
+  border: 2px solid black;
+}
+
+.left-container p{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.right-container{
+  width: 80%;
+  height: 40%;
+  background-color: rgba(245, 56, 56, 0.7);
+  padding: 5px;
+  margin: auto;  
+  margin-top: 5%;
+  border-radius: 2%;
+  border: 2px solid black;
+}
+
+.right-container p{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.later-containers{
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+  display: block;
+}
+
+.later-containers{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.more-info{
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(245, 56, 56, 0.7);
+  margin: auto;
+  border-radius: 2%;
+  border: 2px solid #230d38;
+}
+
+.about-section p{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
