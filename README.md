@@ -50,3 +50,35 @@ What follows this video is an image of the cast all together, however there may 
 Finally, for the INDEX page there is the footer, which contains a small paragraph explaining the site and next to that is working links/ icons which take the user to the corresponding social media site. Each one has been linked up and tested to make sure they work as well as a small size change when they are hovered over. Below is an image of it loaded. 
 
 <img src="screenshots/Capture2.PNG"></img>
+
+
+<h3><strong>About Page </strong></h3>
+
+The next page is the "About Page" which is a page I made so the user and whoever visits the site gets a better understanding of the site in general in comparison to just seeing the site. Its very basic in comparison to the index page as this one only contains a few containers with paragraphs of information in them. Of course it carries the same title, logo navigation and footer as the Index page but the main content on this page as described earlier is just paragraph text. As you can see below: 
+
+
+<img src="screenshots/Capture3.PNG"></img>
+
+So when it comes to this page that is all there really is to it, I have done this as I believe the initial page is the one most people will be concerned and interested in. 
+
+
+
+<h3><strong>Contact Us Page </strong></h3>
+
+
+The final page is the "Contact Us" page which as you can assume is a form which allows a user to input their details to send an email containing a message of their choice to the creator of the website. I designed this to make sure the site is inclusive and allows other fans to input their thouhgts or ideas. When it comes to it actuall submitting the form the message doesn't actually go anywhere as of yet as that is to be added later when I learn it from the later modules. All the fields within the form are required to send a valid form or message to prevent spam or usless emails getting through. 
+
+
+<img src="screenshots/Capture4.PNG"></img>
+
+
+<h3><strong>Future Improvements:</strong></h3>
+
+<ul>
+<li>The first improvement would be getting the contact us form to actually email the creator as this would allow for a good communication between the user and the creator.</li>
+<li>The next improvement I would want to implement would be a memory game refresh, meaning the game will refresh when a button is pressed. I would want to add this to allow the user to refresh the game and randomise the game layout to give it a challenge.</li>
+<li>Third improvement I would add would be giving the website more content in regards to pages, so more info about J.K Rowling, more information on the films and the books etc. It would allow the user to get even more information and would become a kind of Wiki.</li>
+<li>Final improvement would be to make it more interactive, in a sense that there is a slideshow of images the user can scroll through, small easter eggs where the user can hover over a icon and get information etc. In doing this it will keep the user interested in the site and keep them using it. </li>
+</ul>
+
+Once these have been improved I believe this will further the site altogether and it will site at a more professional standard. 
