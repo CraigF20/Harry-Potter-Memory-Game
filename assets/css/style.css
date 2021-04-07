@@ -488,3 +488,27 @@ input{
   text-align: center;
   font-family: 'Akaya Telivigala', cursive;
 }
+
+/*-----------------------------------------------------Smaller Screens-----------*/
+
+@media screen and (max-width: 943px){
+    .last-container{
+        background-color: transparent;
+        border: none;
+    }
+    .about-section{
+        float: none;
+        display: block;
+    }
+    .social-links{
+        float: none;
+        display: block;
+    }
+    .form-section{
+        margin: auto;
+        margin-top: 5%;
+    }
+    fieldset{
+        width: 100%;
+    }
+} 
